@@ -20,4 +20,4 @@ app.use(express.json());
 app.use("/api/todo", todoRoute);
 app.use("/api", authRoute);
 
-app.listen(`0.0.0.0:$PORT`, () => console.log("live"));
+app.listen(`0.0.0.0:3000`, () => console.log("live"));
