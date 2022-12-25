@@ -7,7 +7,7 @@ const cors = require("cors")
 dotenv.config();
 
 //routes
-const todoRoute = require("./routes/todoRoutes");
+const todoRoute = require("./Routes/todoRoutes");
 const authRoute = require("./Routes/auth");
 
 //connect to database
